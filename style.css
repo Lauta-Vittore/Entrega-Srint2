@@ -1,0 +1,52 @@
+body{
+    display: grid;
+    width: 30%;
+    margin: 20px auto;
+}
+.row .col {
+    background-color: rgb(212, 211, 212);
+    border: 3px outset rgb(200 , 200 , 200);
+    border-radius: 6px;
+    padding: 20px;
+}
+.navbar .container-fluid{
+    background-color: blue;
+    border: 2px outset rgb(0 , 0 , 140);
+    border-radius: 6px;
+    justify-content: center;
+    color: white;
+
+}
+.form-floating {
+    color: gray;
+}
+.form-control{
+    margin-top: 8px;
+}
+.listName{
+    background-color: none;
+    border: 3px rgb(200 , 200 , 200);
+    margin-top: 10px;
+    padding-left: 5px;
+    list-style: none;
+    font-weight: 500;
+}
+
+.btn{
+    width: 100px;
+    margin-top: 8px;
+}
+li{
+    border: 3px outset rgb(200 , 200 , 200);
+    padding-left: 10px;
+}
+.el-resultado{
+    background-color: none;
+    border: 3px outset rgb(134, 133, 133);
+    width: fit-content;
+    margin-top: 1px;
+    padding-right: 50px;
+    padding-left: 10px;
+    list-style: none;
+    font-weight: 500;
+}
